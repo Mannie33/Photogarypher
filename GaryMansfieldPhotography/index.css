@@ -1,0 +1,138 @@
+@media all {
+
+    body {
+        background-color: #DFF6FF;
+    }
+
+    /* Header */
+    .navbar {
+        background-color: #06283D;
+    }
+
+    .brand-header {
+        color: #DFF6FF; 
+        font-size: 2rem;
+    }
+
+    .brand-header:hover {
+        transition: color 1s ease;
+        color: #47B5FF; 
+    }
+
+    .nav-link {
+        color: #DFF6FF; 
+    }
+
+    .nav-link:hover {
+        color: #47B5FF;
+    }
+
+    /* Title */ 
+    #title {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .scaling-container {
+        overflow: hidden; 
+        height: 100%; 
+        position: relative; 
+    }
+
+    .background-image-div {
+        transition: all 0.5s; 
+        transform: scale(1.0);
+        background-image: url(images/ferris.jpg);
+        background-position: center; 
+        background-size: cover; 
+        height: 100%;
+        width: 100%; 
+    }
+
+    .scaling-container:hover .background-image-div {
+        transition: all 0.5s; 
+        transform: scale(1.2); 
+    }   
+
+    .logo-letters {
+        font-family: 'Great Vibes', 'Arial Narrow', sans-serif;
+        font-size: 1.50rem;
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+
+    .page-brand {
+        text-align: center; 
+        width: 100%; 
+        position: absolute; 
+        top: 30%; 
+        color: #DFF6FF; 
+        font-family: 'Great Vibes', 'Arial Narrow', sans-serif;
+        font-size: 5rem;
+        background-color: rgb(0,0,0,0.7);
+    }
+
+    /* About Me */
+    #aboutMe {
+        padding: 3% 10%; 
+        text-align: center; 
+    }
+
+    .about-me-image {
+        width: 200px; 
+        height: 200px; 
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .section-header {
+        margin-bottom: 5%; 
+    }
+
+    .about-me-content {
+        margin-top: 5%; 
+        padding: 0 25%; 
+    }
+
+    /* Gallery */ 
+    #gallery {
+        background-color: #256D85; 
+        padding: 5% 0;
+        text-align: center;         
+    }
+    
+    #gallery .container-fluid {
+        --bs-gutter-x: 0;
+    }
+
+    .carousel-whole {
+        width: 100%; 
+    }
+
+    .gallery-image {
+        height: 600px; 
+    }
+
+    /* Contact Me */
+    #contactMe {
+        text-align: center;
+        padding: 5% 0 2% 0;
+    }
+
+    .contact-me-icon {
+        color: #256D85;
+        font-size: 2rem; 
+        margin: 15px;
+    }
+
+    .contact-me-icon:hover {
+        transition: color 1s ease;
+        color: #47B5FF; 
+    }
+
+    .copyright { 
+        text-align: left; 
+        margin: 25px 0 0 3%;
+    }
+
+}
